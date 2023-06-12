@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.name }}'s Project">
+    <meta name="author" content="{{ site.name }}">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ site.website_full }}static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ site.website_full }}static/css/main.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="{{ site.website_full }}static/img/favicon.ico">
+</head>
+<body>
+    <div class="container">
+            {{ content }}
+    </div>
+
+  {% if jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
+
+</body>
+</html>
