@@ -7,24 +7,24 @@ paginate: 5
 plugins: [jekyll-paginate]
 port: 4000
 safe: true
-url: https://jina-kim.github.io/
-author: Jina Kim
+url: https://wooseongyang.github.io/
+author: Wooseong Yang
 
 # edit this section with your information
 # jekyller.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
 baseurl: /
-title: Jina Kim
-name: Jina Kim
-univ_email: kim01479@umn.edu
-univ_email_full: mailto:kim01479@umn.edu
-email: jinakimcs@gmail.com
-email_full: mailto:jinakimcs@gmail.com
+title: Wooseong Yang
+name: Wooseong Yang
+univ_email: wyang73@uic.edu
+univ_email_full: mailto:wyang73@uic.edu
+email: yus0363@gmail.com
+email_full: mailto:yus0363@gmail.com
 website: github.io
-website_full: https://jina-kim.github.io/
-github: https://github.com/Jina-Kim/
-linkedin: https://www.linkedin.com/in/jina-kim-5796a6134
-twitter: https://twitter.com/jina_kimmm/
-google_scholar: https://scholar.google.co.kr/citations?user=kS2XsAsAAAAJ
+website_full: https://wooseongyang.github.io/
+github: https://github.com/WooseongYang/
+linkedin: https://www.linkedin.com/in/wooseong-yang-1833681b6/
+twitter: https://twitter.com/WooseongYang/
+google_scholar: https://scholar.google.com/citations?user=p7yRv6MAAAAJ&hl=en
 # needed for travis-ci build
 exclude: [vendor]
